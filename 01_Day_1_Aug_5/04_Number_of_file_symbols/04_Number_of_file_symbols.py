@@ -1,7 +1,7 @@
 text = open("symbols.txt", "r")
-modified_word = ""
+characters = ""
 for line in text:
     for word in line:
-        modified_word += word
+        characters += word
 text.close()
-print("Number of characters: ", len(modified_word))
+print("Number of characters: ", len(characters))
